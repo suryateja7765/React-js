@@ -8,13 +8,14 @@ export const UserDetails=createContext()
 
 
 const NavigationStack=()=>{
-    const [username]=useState("dheeraj")
-
+     
+    const [username,setUsername]=useState("dheeraj")
+    const changeName=()=>{
+    setUsername("hello")
+}
     return(
     <BrowserRouter>
-    <UserDetails.Provider value={{
-        username
-    }}>
+    <UserDetails.Provider value={{username,changeName}}>
     {
         true
         ?
