@@ -211,7 +211,7 @@ const HomeScreen = () => {
     }, []);
 
     return (
-        <div style={{ background: "#f4f4f4", minHeight: "100vh", padding: "2rem" }}>
+        <div style={{ minHeight: "100vh", padding: "2rem" }}>
             <Header />
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
                 {data.length > 0 ? (
