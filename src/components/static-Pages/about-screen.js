@@ -16,7 +16,7 @@ const AboutScreen=()=>{
             <Header/>
             AboutScreen
             <h3>i am from navigation.js, global info {globalInfo.username}</h3>
-            <button onClick={changeName}>changeSurya</button>
+            <button onClick={changeName}>changeName</button>
             <ComponentA/>
         </h2>
         </>
